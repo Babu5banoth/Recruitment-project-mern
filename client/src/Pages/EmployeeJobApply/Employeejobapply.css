@@ -1,0 +1,186 @@
+.Div-Container{
+    padding: 20px 50px;
+    
+    }
+    
+    .Div-Container h1{
+        color: rgb(21, 6, 129);
+        font-family: sans-serif;
+        font-weight: 700;
+        font-size: 25px;
+        padding: 50px 0px;
+    }
+    
+    .Div-Container .First-Box{
+        padding: 40px 85px ;
+        background-color: rgb(21, 6, 129) ;
+        margin-top: 30px;
+    }
+    
+    .Div-Container .First-Box  .Head{
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+        color: whitesmoke;
+        background-color: rgb(21, 6, 129) ;
+        padding: 5px 10px;
+    }
+    
+    .Div-Container .First-Box .Head p{
+        background-color: rgb(21, 6, 129)  ;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+    
+    .Div-Container .First-Box .Buttons-Container{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        align-items: center;
+        background-color: rgb(21, 6, 129);
+    }
+    
+    .Div-Container .First-Box .Boxes{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        row-gap: 40px;
+        column-gap: 40px;
+        background-color: rgb(21, 6, 129);
+        padding: 20px 10px;
+        width: 85%;
+    }
+    
+    .Div-Container .First-Box .Buttons-Container .Boxes {
+        color: rgb(21, 6, 129) ;
+        border-radius: 5px;
+        font-weight: 700;
+        /* padding: 10px 17px; */
+       
+    }
+    
+    .Div-Container .First-Box .Buttons-Container .Boxes .Buttons {
+        background-color: rgb(21, 6, 129);
+        padding: 10px 0px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        row-gap: 20px;
+        column-gap: 40px;
+        justify-content: space-around;
+    }
+    
+    
+    .Div-Container .First-Box .Buttons-Container .Boxes .Buttons button {
+        border-radius: 5px;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: rgb(21, 6, 129);
+        width: 270px;
+        height: 45px;
+        text-align: center;
+    }
+    
+    
+    
+    
+    .Div-Container .First-Box .Buttons-Container .Apply{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: rgb(21, 6, 129);
+    }
+    
+    
+    .Div-Container .First-Box .Buttons-Container .Apply button{
+        color: rgb(21, 6, 129) ;
+        border-radius: 5px;
+        font-weight: 700;
+        padding: 13px 70px;
+        /* width: 70px;
+        height: 45px; */
+    }
+    
+    
+    
+    
+    /* Second Box */
+    
+    
+    /* .Div-Container .Second-Box2{
+        margin: 60px 0px;
+        padding: 40px 85px ;
+        background-color: rgb(21, 6, 129) ;
+    }
+    
+    .Div-Container .Second-Box2  .Head2{
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+        color: whitesmoke;
+        background-color: rgb(21, 6, 129) ;
+        padding: 5px 10px;
+    }
+    
+    .Div-Container .Second-Box2 .Head2 p{
+        background-color: rgb(21, 6, 129)  ;
+        font-weight: 700;
+        font-family: sans-serif;
+    }
+    
+    .Div-Container .Second-Box2 .Buttons-Container2{
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+        align-items: center;
+        background-color: rgb(21, 6, 129);
+    }
+    
+    .Div-Container .Second-Box2 .Buttons-Container2 .Boxes  {
+        background-color: rgb(21, 6, 129);
+        padding: 30px 20px;
+        padding-right:80px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        row-gap: 30px;
+        column-gap: 70px;
+        justify-content: space-around;
+    }
+    
+    .Div-Container .Second-Box2 .Buttons-Container2  .InnerField select{
+        border-radius: 5px;
+        font-family: sans-serif;
+        font-weight: 700;
+        color: rgb(21, 6, 129);
+        width: 270px;
+        height: 45px;
+        text-align: center;
+    }
+    
+    .Div-Container .Second-Box2 .Buttons-Container2 .Apply2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        background-color: rgb(21, 6, 129);
+    } */
+    
+    
+    /* .Div-Container .Second-Box2 .Buttons-Container2 .Apply2 button{
+        color: rgb(21, 6, 129) ;
+        border-radius: 5px;
+        font-weight: 700;
+        padding: 13px 70px;
+        width: 70px;
+        height: 45px;
+    } */
+    
+    
+    
+    
+    
+    
+         

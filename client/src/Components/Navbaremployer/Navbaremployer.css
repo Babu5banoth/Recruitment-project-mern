@@ -1,0 +1,66 @@
+.Navbar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.Navbar2 .left{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: rgb(21, 6, 129);
+  padding-left: 50px;
+}
+.Navbar2 .left a{
+    text-decoration: none;
+}
+
+.Navbar2 .right{
+padding-right: 50px;
+/* font-size: 15px; */
+/* text-decoration: none; */
+/* color: rgb(21, 6, 129); */
+}
+
+.Navbar2 .right .LinkContainer .id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Navbar2 .right .LinkContainer .id button{
+    padding: 5px 15px;
+    background-color:  rgb(21, 6, 129);
+    color: whitesmoke;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Navbar2 .right .LinkContainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   gap: 40px;
+   text-decoration:none;
+   color: rgb(21, 6, 129);
+   font-size: 19px;
+   font-weight: 700;
+}
+
+.Navbar2 .right .LinkContainer a{
+    text-decoration: none;
+}
+
+.Navbar2 .right .LinkContainer .Job{
+    padding: 5px 10px ;
+    border: 2px solid rgb(21, 6, 129);
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(21, 6, 129);
+}
+

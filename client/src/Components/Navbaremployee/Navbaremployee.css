@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.Navbar .left{
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  color: rgb(21, 6, 129);
+  padding-left: 50px;
+
+}
+.Navbar .left a{
+    text-decoration: none;
+}
+
+.Navbar .right{
+padding-right: 50px;
+/* font-size: 15px; */
+/* text-decoration: none; */
+/* color: rgb(21, 6, 129); */
+}
+
+.Navbar .right .LinkContainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   gap: 20px;
+   text-decoration:none;
+   color: rgb(21, 6, 129);
+   font-size: 15px;
+   font-weight: 700;
+}
+
+.Navbar .right .LinkContainer a{
+    text-decoration: none;
+}
+
+.Navbar .right .LinkContainer .id{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.Navbar .right .LinkContainer .id button{
+  padding: 5px 15px;
+  background-color:  rgb(21, 6, 129);
+  color: whitesmoke;
+  font-weight: 700;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+

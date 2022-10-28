@@ -1,0 +1,75 @@
+.bg{
+  background-image: url(../../assets/wallpaper.jpg);
+  background-size: cover;
+  /* background-position: center; */
+
+}
+
+
+
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  
+}
+
+ .Navbar .Heading1 {
+  color: rgb(21, 6, 129);
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 50px;
+}
+
+ .Navbar .Center-Text {
+  font-weight: 600;
+  color: rgb(21, 6, 129);
+  text-transform: uppercase;
+  transform: translateX(-100%);
+}
+
+ .Center-Text {
+  padding-top: 20px;
+}
+.Center-Text h2{
+ color: rgb(21, 6, 129);
+}
+
+/* Middle Buttons */
+
+.Container .keys{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 230px;
+}
+
+
+
+.Container .keys button Link {
+  width: 500px;
+  padding: 12px;
+  font-size: 20px;
+  font-weight: 900;
+  color: rgb(21, 6, 129);
+  background-color: white;
+}
+
+.Container .keys button Link:hover {
+  background-color: rgb(21, 6, 129);
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+

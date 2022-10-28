@@ -1,0 +1,28 @@
+.records{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.records .job {
+    display: flex;
+    /* width: 400px; */
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(154, 165, 224);
+    
+}
+.records .job .para{
+    background-color:rgb(154, 165, 224);
+    color: black;
+}
+.button_job{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+
+}
