@@ -39,7 +39,7 @@ const Employeejobapply = () => {
   };
   useEffect(() => {
     console.log(jobHistory);
-    axios.post("https://recruitment-managementt.herokuapp.com/api/jobhistory", jobHistory);
+    axios.post("https://recruitment-project-mern.herokuapp.com/api/jobhistory", jobHistory);
   }, [jobHistory]);
 
 

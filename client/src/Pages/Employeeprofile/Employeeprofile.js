@@ -24,7 +24,7 @@ const Employeeprofile = () => {
 
     const response = await axios.get(
 
-      `https://recruitment-managementt.herokuapp.com/api/user/${userid}`
+      `https://recruitment-project-mern.herokuapp.com/api/user/${userid}`
 
     );
 
@@ -65,7 +65,7 @@ const Employeeprofile = () => {
   const handlesubmit = async (e) => {
     e.preventDefault();
     await axios.patch(
-      `https://recruitment-managementt.herokuapp.com/api/user/imageupload/${userid}`, image
+      `https://recruitment-project-mern.herokuapp.com/api/user/imageupload/${userid}`, image
     );
     // getuserdata();
     console.log(getuserdata())

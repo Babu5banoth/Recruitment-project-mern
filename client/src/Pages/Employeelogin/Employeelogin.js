@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Employeelogin.css"
 import { Link } from "react-router-dom"
 import { Login } from "../../Hooks/userLogin";
-import logo from "../../assets/Inkprog-logo.png";
+
 
 
 const Employeelogin = () => {

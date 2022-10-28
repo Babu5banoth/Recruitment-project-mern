@@ -27,7 +27,7 @@ const Employerjobpost = () => {
   const createRecDetails = async (e) => {
     e.preventDefault();
     const response = await axios.post(
-      "https://recruitment-managementt.herokuapp.com/api/jobpost",
+      "https://recruitment-project-mern.herokuapp.com/api/jobpost",
       form
     );
     // console.log(response)

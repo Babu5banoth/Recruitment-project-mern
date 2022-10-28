@@ -18,7 +18,7 @@ const Additionalinfo = () => {
   // get request
   const getdetails = async () => {
     const response = await axios.get(
-      `https://recruitment-managementt.herokuapp.com/api/user/${userinfo}`
+      `https://recruitment-project-mern.herokuapp.com/api/user/${userinfo}`
     );
     setDetails(response.data);
   };
@@ -63,7 +63,7 @@ const Additionalinfo = () => {
     // console.log(details)
 
     await axios
-      .patch(`https://recruitment-managementt.herokuapp.com/api/user/login/${userinfo}`,basicdetail)
+      .patch(`https://recruitment-project-mern.herokuapp.com/api/user/login/${userinfo}`,basicdetail)
       .then((res) => {
         console.log(res);
       });

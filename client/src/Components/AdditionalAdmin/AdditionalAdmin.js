@@ -13,7 +13,7 @@ const AdditionalAdmin = () => {
     // get request
     const getdetails = async () => {
         const response = await axios.get(
-            `https://recruitment-managementt.herokuapp.com/api/admin/${admininfo}`
+            `https://recruitment-project-mern.herokuapp.com/api/admin/${admininfo}`
         );
         setDetails(response.data);
     };
@@ -54,7 +54,7 @@ const AdditionalAdmin = () => {
         // console.log(details)
 
         await axios
-            .patch(`https://recruitment-managementt.herokuapp.com/api/admin/login/${admininfo}`, basicdetail)
+            .patch(`https://recruitment-project-mern.herokuapp.com/api/admin/login/${admininfo}`, basicdetail)
             .then((res) => {
                 console.log(res);
             });
