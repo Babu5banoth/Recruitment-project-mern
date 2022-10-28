@@ -9,7 +9,7 @@ const Home = () => {
 
       <div className="Navbar">
         <div className="Heading1">
-        <h1>INKPROOG</h1>
+        <h1>INKPROG</h1>
         </div>
         <div  className="Center-Text">
           <h2> RECRUITMENT MANAGEMENT SOFTAWRE</h2>
