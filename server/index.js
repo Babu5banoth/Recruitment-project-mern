@@ -12,7 +12,7 @@ const port = process.env.PORT || 7000
 
 //DB connection
 
-require("../server/db/connections")
+require("./db/connections")
 
 
 
