@@ -12,7 +12,7 @@ export const Signup = () => {
         // setLoading(true)
         setError(null)
 
-        const response = await fetch("/api/user/signup",{
+        const response = await fetch("https://recruitment-project-mern.herokuapp.com/api/user/signup",{
             method:"POST",
             headers: {"Content-type":"application/json"},
             body: JSON.stringify({firstName, lastName, email, mobileNumber, password})

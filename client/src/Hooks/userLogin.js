@@ -12,7 +12,7 @@ export const Login = () => {
         // setLoading(true)
         setError(null)
 
-        const response = await fetch("/api/user/login",{
+        const response = await fetch("https://recruitment-project-mern.herokuapp.com/api/user/login",{
             method:"POST",
             headers: {"Content-type":"application/json"},
             body: JSON.stringify({ email, password})
