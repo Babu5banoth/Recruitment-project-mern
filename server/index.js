@@ -48,7 +48,7 @@ app.use("/api/jobhistory",jobHistory)
 
 
 app.get("/", (req, res) => {
-    res.send("hello babu")
+    res.send("hello babu connected")
 })
 
 
